@@ -17,10 +17,42 @@
 # ### real part is mandatory in imaginary like imaginary is never stand alone (j should be assign with any number)
 # print(numComplex)
 
-#complex wquation
-eq1:complex = (2+3j)*(1+2j)
-print(eq1)
+# #complex equation
+# eq1:complex = (2+3j)*(1+2j)
+# print(eq1)
+
+
+# numRange: range = range(3, 15, 3)
+# print(numRange)
 
 ###################### data types ended ##################################
 
+# # mutiple line comment
+# """We are
+# learning
+#     pyhon
+# """
 
+# # double quote (multi text) does not work
+# a: str = "We are " "learning " "Python!"
+# print(a)
+
+# b: str = """We are
+#     learning
+#         Python"""
+# print(b)
+
+
+# for i in range(0, 10):
+#     print(i)
+
+
+# SET
+mySet: set = {3, 4, 2, "2", 3}
+print(mySet)
+mySet.add(18)
+print(mySet)
+
+# frozen set (immutable)
+fSet: frozenset = frozenset([1, 2, 3, 433, 3, "Ali"])
+print(fSet)
