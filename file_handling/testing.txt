@@ -1,4 +1,7 @@
 Learning python
 append file
-append file
-{'name': 'Abc', 'age': 13}
+
+HTML
+CSS
+JavaScript
+Python
